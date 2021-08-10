@@ -1,0 +1,12 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string txt = "Como é???????" ;
+		Console.WriteLine(txt);		
+		txt = txt.Replace("??", "");
+		Console.WriteLine(txt);				
+	}
+}
